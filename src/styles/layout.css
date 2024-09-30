@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Space Grotesk";
+}
+
+.fixed{
+  position: fixed;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.proposalImg{
+  left: 746px;
+  top: -280px;
+}
+
+.scale-2{
+  scale: 2.0;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.inline{
+  display: inline;
+}
+
+.block{
+  display: block;
+}
+
+
+span{
+  z-index: -1;
+}
+
+.contuctUsImg{
+  left: 940px;
+  top: 100px;
+  scale: 1.3
+}
+
+/* .header-bg{
+  background-color: white;
+  opacity: 0.1;
+} */
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-end{
+  align-items: end;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+.gap-40 {
+  gap: 40px;
+}
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.gap-35 {
+  gap: 35px;
+}
+
+.h-line773{
+  height: 773px;
+}
+
+.mt-200 {
+  margin-top: 200px;
+}
+
+.mt-140 {
+  margin-top: 140px;
+}
+.mt-120 {
+  margin-top: 120px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25{
+  margin-top: 25px;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.ml-35{
+  margin-left: 35px;
+}
+
+.underline{
+  text-decoration-line: underline ;
+  text-decoration-color: white;
+
+}
+
+.mt-27{
+  margin-top: 27px;
+}
+
+.mt-66{
+  margin-top: 66px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+}
+
+.w-600{
+  width: 600px;
+}
+
+.w-556{
+  width: 556px;
+}
+
+.w-269{
+  width: 269px;
+}
+
+.p-70-60{
+  padding: 70px 60px;
+}
+
+.p-41-60{
+  padding: 41px 60px;
+
+}
+
+.p-60-100{
+  padding: 60px 100px;
+
+}
+
+.p-footer{
+  padding: 50px 60px 50px 60px;
+}
+
+.w-h-30{
+  height: 30px;
+  width: 30px;
+}
+
+.w-10{
+  width: 10%;
+}
+
+.w-20{
+  width: 20%;
+}
+
+.w-30{
+  width: 30%;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.w-70{
+  width: 70%;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.filtered{
+  filter: grayscale(100%);
+}
+
+.w-41{
+  width: 41px;
+  height: 41px;
+}
+
+
+.p-60{
+  padding: 60px;
+}
+
+.br-45{
+  border-radius: 45px;
+
+}
+
+.p-2{
+  padding: 2px;
+}
+
+.w-380{
+  width: 380px;
+}
+
+.brt-45{
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+
+}
+
+.w-280{
+  width: 280px;
+}
+
+.servicesBoxGrey{
+  background-color: #F3F3F3;
+  padding: 50px;
+  border-radius: 45px;
+  border: solid 1px;
+}
+
+.servicesBoxGreen{
+  background-color: #B9FF66;
+  padding: 50px;
+  border-radius: 45px;
+  border: solid 1px;
+}
+
+.servicesBoxBlack{
+  background-color: black;
+  padding: 50px;
+  border-radius: 45px;
+}
+
+.proposal{
+  position: absolute;
+  width: 500px;
+  left:846px;
+  top: 2250px;
+}
+
+.bg-black{
+  background-color: black;
+
+}
+
+.v-line{
+  height: 186px;
+  width: 1px;
+  background-color: white;
+}
+
+.h-line{
+  width: 1114px;
+  height: 1px;
+  background-color: black;
+
+}
+
+.pm-icon{
+  width: 58px;
+  height: 58px;
+}
+
+/* Needs corrections */
+.shadow{
+  border: 1px solid black;
+  box-shadow: 0 4px 2px -2px black; 
+}
+
+.paddingTeam{
+  padding: 40px 35px;
+}
+
+.p-58-40{
+  padding: 58px 40px;
+}
+
+.p-20-35{
+  padding: 20px 35px;
+
+}
+
+.h-67{
+  height: 67px;
+}
+
+.br-14{
+  border-radius: 14px;
+}
+
+.w-634{
+  width: 634px;
+}
+
+.w-285{
+  width: 285px;
+}
+.w-250{
+  width: 250px;
+}
+
+input[id="nostyle"]{
+  border: 1px solid white;
+}
+
+.p-l-35{
+  padding-left:  35px;
+}
+
+.bg-darkGrey{
+  background-color: #292A32;
+}
+
+.br-black{
+  border: 1px solid black;
+}
+
+.h-line-317{
+  width: 317px;
+  height: 1px;
+  background-color: black;
+}
+
+.h-line-white{
+  width: 1120px;
+  height: 1px;
+  background-color: white;
+}
+
+.teamImg{
+  width: 105.65px;
+  height: 102.82px;
+}
+
+.blackBox{
+  height: 625px;
+  background-color: black;
+}
+
+.input{
+  width: 556px;
+  height: 59px;
+  border-radius: 14px;
+  padding: 18px 447px 18px 30px;
+}
+
+.input_textarea{
+  width: 556px;
+  height: 190px;
+  border-radius: 14px;
+  padding: 18px 447px 149px 30px;
+
+}
+
+/* any better ideas? */
+.contuctUsImg{
+  position: absolute;
+  right: -130px;
+  width: 42%;
+
+}
+
+input[type="radio"] {
+  margin-right: 14px; 
+
+}
+
+input[type="radio"]:checked {
+  background-color: greenyellow; 
+
+}
+
+.bg-dark{
+  background-color: #191A23;
+}

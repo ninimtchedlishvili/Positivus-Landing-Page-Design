@@ -1,0 +1,52 @@
+.hXL {
+  font-size: 60px;
+}
+.hL {
+  font-size: 40px;
+}
+.hM {
+  font-size: 30px;
+}
+.pXL {
+  font-size: 20px;
+}
+.pL {
+  font-size: 18px;
+}
+.font-bold {
+  font-weight: bold;
+}
+
+.font-light {
+  font-weight: lighter;
+}
+
+.greenBack{
+  background-color: #B9FF66;
+}
+
+.greyBack{
+  background-color: #F3F3F3;
+}
+
+.white-text{
+  color: white;
+}
+.markGreen{
+  background-color: #B9FF66;
+  border-radius: 7px;
+  display:inline;
+
+}
+
+/* why does inline work? */
+.markGrey{
+  background-color: #F3F3F3;
+  border-radius: 7px;
+  display:inline;
+
+}
+
+.text-green{
+  color: #B9FF66;
+}
