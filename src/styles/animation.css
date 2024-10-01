@@ -1,0 +1,17 @@
+/* .animation{
+    position: relative;
+    animation: typing 1s steps(17, end) forwards;
+} */
+
+.animation{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+      typing 1s steps(20, end) forwards;
+  }
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

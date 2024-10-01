@@ -12,9 +12,9 @@
 
 <body>
   <!-- Navigation Bar -->
-  <header class="container  mt-60">
-    <nav class="">
-      <div class="flex justify-between  align-center">
+  <header class="container pt-60">
+    <nav class="fixed container">
+      <div class="flex justify-between align-center">
         <div>
           <img src="./src/img/logo.svg" alt="">
         </div>
@@ -40,7 +40,9 @@
         <h1 class="hXL">Navigating the digital landscape <br>for success</h1>
         <p class="pXL">Our digital marketing agency helps businesses grow and succeed online through a range of services
           including SEO, PPC, social media marketing, and content creation.</p>
-        <button class="btn_primary w-60">Book a consultation</button>
+        <button class=" btn_primary w-60">
+          <p class="animation">Book a consultation</p>
+        </button>
       </div>
       <div class="w-40">
         <img src="./src/img/banner.svg" alt="banner">
@@ -228,13 +230,12 @@
         <p class="white-text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50%
           increase in website
           traffic and a 25% increase in sales.</p>
-        <div class="flex align-center">
-          <p class="text-green mt-20">Learn More</p>
-          <img class="w-10" src="./src/img/learnMore.svg" alt="">
+        <div class="flex align-center gap-15 mt-20">
+          <p class="text-green  ">Learn More</p>
+          <img class="w-8" src="./src/img/learnMore.svg" alt="">
         </div>
       </div>
 
-      <!-- vertical line -->
       <div class="v-line"></div>
 
       <!-- 2/3 -->
@@ -242,13 +243,12 @@
         <p class="white-text">For a B2B software company, we developed an SEO strategy that resulted in a first page
           ranking for key
           keywords and a 200% increase in organic traffic.</p>
-        <div>
-          <p class="text-green mt-20">Learn More</p>
-          <!-- Arrow? -->
+        <div class="flex align-center gap-15 mt-20">
+          <p class="text-green  ">Learn More</p>
+          <img class="w-8" src="./src/img/learnMore.svg" alt="">
         </div>
       </div>
 
-      <!-- vertical line -->
       <div class="v-line"></div>
 
       <!-- 3/3 -->
@@ -256,9 +256,9 @@
         <p class="white-text">For a national retail chain, we created a social media marketing campaign that increased
           followers by 25% and
           generated a 20% increase in online sales.</p>
-        <div>
-          <p class="text-green mt-20">Learn More</p>
-          <!-- Arrow? -->
+        <div class="flex align-center gap-15 mt-20">
+          <p class="text-green  ">Learn More</p>
+          <img class="w-8" src="./src/img/learnMore.svg" alt="">
         </div>
       </div>
     </div>
@@ -524,7 +524,7 @@
         <div class="">
           <div class="">
             <input type="radio" class="scale-2" name="contuctUs" id="" checked>Say Hi</input>
-            <input type="radio" name="contuctUs" id="" class="scale-2 ml-35">Get a Quote</input>
+            <input type="radio" name="contuctUs" id="" class="radio-button-input scale-2 ml-35">Get a Quote</input>
           </div>
 
           <div class="mt-40">
@@ -588,18 +588,19 @@
 
       </div>
 
-    <div class="bg-darkGrey flex align-center justify-center gap-20 w-634 br-14">
-      <input class="pXL h-67 w-285 white-text p-l-35 bg-darkGrey  br-14" placeholder="Email" type="email" name="" id="nostyle">
-      <button class="pXL h-67 w-250 greenBack br-14">Subscribe to news</button>
+      <div class="bg-darkGrey flex align-center justify-center gap-20 w-634 br-14">
+        <input class="pXL h-67 w-285 white-text p-l-35 bg-darkGrey  br-14" placeholder="Email" type="email" name=""
+          id="nostyle">
+        <button class="pXL h-67 w-250 greenBack br-14">Subscribe to news</button>
+      </div>
     </div>
-  </div>
 
-  <div class="h-line-white mt-50"></div>
+    <div class="h-line-white mt-50"></div>
 
-  <div class="gap-40 flex">
-    <p class="mt-50 pL white-text">© 2023 Positivus. All Rights Reserved.</p>
-    <a class="white-text mt-50 pL underline" href="">Privacy Policy</a>
-  </div>
+    <div class="gap-40 flex">
+      <p class="mt-50 pL white-text">© 2023 Positivus. All Rights Reserved.</p>
+      <a class="white-text mt-50 pL underline" href="">Privacy Policy</a>
+    </div>
 
 </footer>
 
