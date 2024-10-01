@@ -1,13 +1,8 @@
-/* .animation{
-    position: relative;
-    animation: typing 1s steps(17, end) forwards;
-} */
-
 .animation{
     overflow: hidden;
     white-space: nowrap;
     animation: 
-      typing 1s steps(20, end) forwards;
+      typing 1s steps(17) forwards;
   }
 
 
