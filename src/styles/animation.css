@@ -2,7 +2,7 @@
     overflow: hidden;
     white-space: nowrap;
     animation: 
-      typing 1s steps(17) forwards;
+      typing 1s steps(17, end) forwards;
   }
 
 
